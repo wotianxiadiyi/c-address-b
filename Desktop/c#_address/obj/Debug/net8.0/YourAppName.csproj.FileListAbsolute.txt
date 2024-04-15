@@ -1,0 +1,14 @@
+/Users/limochan/YourAppName/bin/Debug/net8.0/YourAppName
+/Users/limochan/YourAppName/bin/Debug/net8.0/YourAppName.deps.json
+/Users/limochan/YourAppName/bin/Debug/net8.0/YourAppName.runtimeconfig.json
+/Users/limochan/YourAppName/bin/Debug/net8.0/YourAppName.dll
+/Users/limochan/YourAppName/bin/Debug/net8.0/YourAppName.pdb
+/Users/limochan/YourAppName/obj/Debug/net8.0/YourAppName.GeneratedMSBuildEditorConfig.editorconfig
+/Users/limochan/YourAppName/obj/Debug/net8.0/YourAppName.AssemblyInfoInputs.cache
+/Users/limochan/YourAppName/obj/Debug/net8.0/YourAppName.AssemblyInfo.cs
+/Users/limochan/YourAppName/obj/Debug/net8.0/YourAppName.csproj.CoreCompileInputs.cache
+/Users/limochan/YourAppName/obj/Debug/net8.0/YourAppName.dll
+/Users/limochan/YourAppName/obj/Debug/net8.0/refint/YourAppName.dll
+/Users/limochan/YourAppName/obj/Debug/net8.0/YourAppName.pdb
+/Users/limochan/YourAppName/obj/Debug/net8.0/YourAppName.genruntimeconfig.cache
+/Users/limochan/YourAppName/obj/Debug/net8.0/ref/YourAppName.dll

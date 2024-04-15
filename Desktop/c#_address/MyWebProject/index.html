@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>瀑布流布局</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .waterfall {
+            column-count: 3;
+            column-gap: 10px;
+            width: 90%;
+            margin: auto;
+        }
+        .item {
+            background-color: #f4f4f4;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            break-inside: avoid;
+            display: block;
+            width: 100%; /* 使用100%的宽度以填满列宽 */
+        }
+        .content {
+            position: relative;
+            width: 100%;
+            padding-bottom: calc(100% * (3 / 4)); /* 默认16:9的宽高比 */
+            background: #ddd;
+            overflow: hidden;
+        }
+        .content.different {
+            padding-bottom: calc(100% * (9 / 16)); /* 调整为9:16的宽高比 */
+        }
+        .text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #333;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="waterfall">
+        <div class="item"><div class="content"><div class="text">1</div></div></div>
+        <div class="item"><div class="content different"><div class="text">2</div></div></div>
+        <div class="item"><div class="content"><div class="text">3</div></div></div>
+        <div class="item"><div class="content different"><div class="text">4</div></div></div>
+        <div class="item"><div class="content"><div class="text">5</div></div></div>
+        <div class="item"><div class="content different"><div class="text">6</div></div></div>
+        <div class="item"><div class="content"><div the="text">7</div></div></div>
+        <div class="item"><div class="content different"><div class="text">8</div></div></div>
+        <!-- 可以继续添加更多的item -->
+    </div>
+</body>
+</html>
